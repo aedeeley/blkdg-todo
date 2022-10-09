@@ -11,7 +11,6 @@ body {
     background-attachment: fixed;
     color: #161717;
     font-weight: 400;
-    padding-top: 100px;
 }
 
 h1 {
@@ -23,7 +22,7 @@ h1 {
 
 #todo {
     position: relative;
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
     padding: 48px;
     max-width: 808px;
     background: #fff;
@@ -98,4 +97,14 @@ h1 {
 
 label:hover>.delete {
     color: #ff0000;
+}
+
+
+/* mobile @media query */
+
+@media only screen and (max-width: 600px) {
+    #add #submit input {
+        width: 85%;
+        padding: 15px 15px;
+    }
 }
