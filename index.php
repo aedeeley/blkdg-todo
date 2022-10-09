@@ -21,10 +21,13 @@
             <h1>Things to do</h1>
             <ul>
                 <?php
-                require 'conn.php';
-                $query = $conn->query("SELECT * FROM `task` ORDER BY `task_id` DESC");
-                $count = 1;
-                while ($fetch = $query->fetch_array()) {
+                require 'conn.php'; // connect class is $conn
+                $query = $conn->query("SELECT * FROM `task` ORDER BY `task_id` DESC"); // mysql query task items
+                $count = 1; 
+                while ($fetch = $query->fetch_array()) { // fetch task items from database and create array
+
+                // start todo item loop
+
                 ?>
                 <li>
                     <?php
@@ -48,8 +51,10 @@
                     </label>
                 </li>
                 <?php
-                }
+
+                } // end todo item loop
                 ?>
+
             </ul>
         </div>
     </div>
