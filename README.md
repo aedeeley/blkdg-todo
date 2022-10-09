@@ -8,5 +8,9 @@ This app was built using:
   2. CSS
   3. PHP
   4. MySQL
+
+Make sure to update your mysql database settings in the conn.php file.
+
+  $conn = new mysqli("localhost", "MYSQLUSERNAME", "MYSQLPASSWORD", "MYSQLDATABASENAME");
   
 You can also view a live version @ https://todo.deeley.dev
