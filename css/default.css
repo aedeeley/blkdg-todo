@@ -84,6 +84,7 @@ h1 {
 
 .delete {
   color: transparent;
+  vertical-align: -1px;
 }
 
 label:hover > .delete {
