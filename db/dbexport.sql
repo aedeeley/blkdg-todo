@@ -38,9 +38,9 @@ CREATE TABLE `task` (
 --
 
 INSERT INTO `task` (`task_id`, `task`, `status`) VALUES
-(28, 'to-do item', 'Incomplete'),
-(34, 'to-do item', 'Incomplete'),
-(40, 'to-do item', 'Done');
+(1, 'to-do item', 'Incomplete'),
+(2, 'to-do item', 'Incomplete'),
+(3, 'to-do item', 'Done');
 
 --
 -- Indexes for dumped tables
