@@ -16,4 +16,4 @@ Make sure to update your mysql database settings in the conn.php file.
 You can also view a live version @ https://todo.deeley.dev
 
 -- MySQL version: 10.5.17 MariaDB  
--- PHP Version: 8.0.24
+-- PHP version: 8.0.24
