@@ -9,4 +9,4 @@ This app was built using:
   3. PHP
   4. MySQL
   
-Thanks for taking a look!
+You can also view a live version @ https://todo.deeley.dev
