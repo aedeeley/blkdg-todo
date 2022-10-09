@@ -12,7 +12,7 @@
         <div id="add">
             <form method="POST" class="formtodo" action="add_query.php">
                 <div id="submit">
-                    <input type="text" class="addtodo" maxlength="100" name="task" placeholder="Add new task"
+                    <input type="text" class="addtodo" maxlength="100" name="task" placeholder="Add new task" autofocus
                         required />
                     <button class="btn" name="add">&gt;</button>
                 </div>
