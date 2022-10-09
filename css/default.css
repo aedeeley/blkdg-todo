@@ -5,110 +5,118 @@
 /* start main styles */
 
 body {
-    font-family: "Rubik", sans-serif;
-    background: #333 url("../img/bg.jpg") no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: #161717;
-    font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  background: #333 url("../img/bg.jpg") no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #161717;
+  font-weight: 400;
 }
 
 h1 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 #todo {
-    position: relative;
-    margin: 80px auto;
-    padding: 48px;
-    max-width: 712px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 12px 20px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin: 80px auto;
+  padding: 48px;
+  max-width: 712px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 20px 10px rgba(0, 0, 0, 0.05);
 }
 
 #add #submit {
-    position: relative;
-    width: 100%;
-    border: 3px solid #bdbdbd;
-    border-radius: 12px;
+  position: relative;
+  width: 100%;
+  border: 3px solid #bdbdbd;
+  border-radius: 12px;
+  transition: all 0.1s linear;
+}
+
+#add #submit:hover {
+  border: 3px solid #9b9b9b;
+}
+
+#add #submit:focus-within {
+  border: 3px solid #9b9b9b;
 }
 
 #add #submit input {
-    width: 80%;
-    border: none;
-    outline: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 15px 15px;
-    background: transparent;
-    color: #333333;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 15px 15px;
+  background: transparent;
+  color: #333333;
 }
 
 #add .btn {
-    position: absolute;
-    right: 10px;
-    top: -6px;
-    border: none;
-    background: transparent;
-    color: #29abe2;
-    font-family: "Catamaran", sans-serif;
-    font-size: 26pt;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  border: none;
+  background: transparent;
+  color: #29abe2;
+  font-family: "Catamaran", sans-serif;
+  font-size: 26pt;
 }
 
 #app {
-    font-weight: 300;
-    font-size: 32px;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 #app ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #app ul li {
-    line-height: 38px;
-    margin: 30px 0;
+  line-height: 38px;
+  margin: 30px 0;
 }
 
 #app ul li:last-child {
-    margin: 30px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 #app img {
-    vertical-align: -15px;
+  vertical-align: -15px;
 }
 
 #app label {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 #app label span {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .delete {
-    color: transparent;
-    vertical-align: -1px;
-    text-decoration: none;
-    font-size: 20pt;
+  color: transparent;
+  vertical-align: -1px;
+  text-decoration: none;
+  font-size: 20pt;
 }
 
-label:hover>.delete {
-    color: #ff0000;
+label:hover > .delete {
+  color: #ff0000;
 }
-
 
 /* mobile @media query */
 
 @media only screen and (max-width: 600px) {
-    #add #submit input {
-        width: 85%;
-        padding: 15px 15px;
-    }
+  #add #submit input {
+    width: 85%;
+    padding: 15px 15px;
+  }
 }
